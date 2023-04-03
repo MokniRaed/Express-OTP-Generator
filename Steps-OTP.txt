@@ -1,0 +1,11 @@
+1-Create a MySQL table to store OTP information: You can create a table in your MySQL database to store the user's email, OTP code, and expiry time.
+
+2-Generate OTP code: You can use a library like crypto or otp-generator in Node.js to generate a unique OTP code.
+
+3-Store the OTP code and expiry time in the MySQL table: Once the OTP code is generated, you can store it in the MySQL table along with the email and expiry time.
+
+4-Send the OTP code to the user's email: You can use a library like nodemailer to send the OTP code to the user's email.
+
+5-Verify the OTP code: When the user enters the OTP code, you can check whether the code is valid and has not expired.
+
+6-If the OTP code is valid, allow the user to reset their password: If the OTP code is valid and has not expired, allow the user to reset their password by updating the password field in the MySQL table.
